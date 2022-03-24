@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#heading{
+    margin-right:10vh;
+    padding: 1vh;
+    color:antiquewhite;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* .background_image{
+    background-image: url('');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+} */
+
+#box{
+    
+    margin-top: 5vh;
+    margin-right: 6vh;
+
+   }
+body{
+    
+          
+  background: none !important; 
+  
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+   
+    text-align: center;
+}
+.form{
+    
+    background: none !important;
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card-body{
+    
+    
+    background-image: url('./bg.jpg'); 
+    height: 25vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    
+}
+.card-subtitle{
+    color: aliceblue;
+    font-size: 16px;
+}
+
+.container{
+    margin-left: 90px;
+
+
+}
+
+

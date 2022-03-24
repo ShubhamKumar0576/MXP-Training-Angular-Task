@@ -1,0 +1,21 @@
+<div class="outerShell">
+  <h1>EMI Calculator </h1><br/>
+  <div class='loanBlock'>
+    <p>Loan Amount</p>
+   <input type=number id="amount" [(ngModel)]="amount" placeholder="Enter Your amount" style="border-radius:5px"><br>
+  </div>
+   <div class='loanBlock'>
+   <p> Annual Percent Rate </p>
+   <input type="number"  id="apr" [(ngModel)]="interest" placeholder="Enter the Interest rate" style="border-radius:5px"><br>
+   </div>
+  <div class='loanBlock'>
+   <p>Tenure</p> 
+   <input type=number  id="tenure" [(ngModel)]="years" placeholder="Enter the tenure" style="border-radius:5px"><br>
+   <br>
+    </div>
+    <div id="btn">
+      <button type="button" class="btn btn-outline-success" (click)="calcEmi()" >Calculate EMI</button> 
+  </div>
+  <h4 id="la">Total Amount to be paid is Rs: {{loanAmount}}</h4>
+  
+</div>

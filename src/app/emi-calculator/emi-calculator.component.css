@@ -1,0 +1,51 @@
+.divShell{
+    background-color: antiquewhite
+  }
+  
+  h1{
+    color:antiquewhite;
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  form{
+      background: none !important;
+ 
+  }
+  
+  
+  .loanBlock{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+
+  button{
+    position: relative;
+    /* left: 47%; */
+
+    background-color: rgb(252, 113, 0);
+    /* background: none; */
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 30px
+  }
+  
+  #btn{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h4{
+  text-align: center;
+  font-weight: 500;
+  color: rgb(223, 217, 164);
+  margin-top:30px;
+}
+

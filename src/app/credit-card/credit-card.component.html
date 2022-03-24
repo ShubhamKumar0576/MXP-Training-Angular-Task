@@ -1,0 +1,12 @@
+<h1>Credit Card Status</h1>
+
+<div class="outerShell">
+    <div class='cardBlock'>
+        <p>Enter Your Salary </p>
+     <input type=number [(ngModel)] ="salary" placeholder="Enter here" style="border-radius:5px"><br>
+    </div>
+    <div id="btn">
+        <button type="button" class="btn btn-outline-success" (click)="status()">Get Status</button> 
+    </div>
+    <h4>{{getStatus}}</h4>
+
